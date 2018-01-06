@@ -1,13 +1,15 @@
+options(repos = "https://mran.microsoft.com")
+
 # Installing packages ------------------------------------------------------------------
 
-if (!require('httr')) install.packages('httr', repos = 'http://cran.us.r-project.org')
-if (!require('jsonlite')) install.packages('jsonlite', repos = 'http://cran.us.r-project.org')
-if (!require('ggplot2')) install.packages('ggplot2', repos = 'http://cran.us.r-project.org')
-if (!require('twitteR')) install.packages("twitteR", repos = 'http://cran.us.r-project.org')
-if (!require('rsvg')) install.packages("rsvg", repos = 'http://cran.us.r-project.org')
-if (!require('rjson')) install.packages("rjson", repos = 'http://cran.us.r-project.org')
-if (!require('base64enc')) install.packages('base64enc', repos = 'http://cran.us.r-project.org')
-if (!require('devtools')) install.packages('devtools', repos = 'http://cran.us.r-project.org')
+if (!require('httr')) install.packages('httr')
+if (!require('jsonlite')) install.packages('jsonlite')
+if (!require('ggplot2')) install.packages('ggplot2')
+if (!require('twitteR')) install.packages("twitteR")
+if (!require('rsvg')) install.packages("rsvg")
+if (!require('rjson')) install.packages("rjson")
+if (!require('base64enc')) install.packages('base64enc')
+if (!require('devtools')) install.packages('devtools')
 library('rjson')
 library('rsvg')
 library('twitteR')
