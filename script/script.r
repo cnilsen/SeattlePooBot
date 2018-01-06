@@ -1,6 +1,6 @@
 # Installing packages ------------------------------------------------------------------
 
-if (!require('httr')) install.packages('httr')
+if (!require('httr')) install.packages('httr', repos = 'http://cran.us.r-project.org')
 if (!require('jsonlite')) install.packages('jsonlite')
 if (!require('ggplot2')) install.packages('ggplot2')
 if (!require('twitteR')) install.packages("twitteR")
