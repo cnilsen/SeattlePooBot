@@ -37,7 +37,7 @@ csecret <- credentials$twitter$consumer_secret
 atoken <- credentials$twitter$access_token
 asecret <- credentials$twitter$access_secret
 
-
+options(httr_oauth_cache=F)
 setup_twitter_oauth(ckey, csecret, atoken, asecret)
 
 # 
